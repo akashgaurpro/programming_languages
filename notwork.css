@@ -1,0 +1,39 @@
+/* notworking site code */
+
+.textname
+{
+	color:red;
+	font-family:Cooper Black;
+	font-size:50px;
+	position:relative;
+	animation-name:example;
+	animation-duration:4s;
+}
+@keyframes example
+		 {
+		     0% {color:red ;left:0px ; top:0px;}
+             25% {color:blue ;left:400px ; top:0px;}
+			 50% {color:yellow ;left:400px ; top:400px;}
+			 75% {color:#ff00b1 ;left:0px ; top:400px;}
+			 100% {color:#00ff08 ;left:0px ; top:0px;}
+		 }
+/* notworking site code finished*/
+
+@media only screen and (max-width:850px)
+{
+	.textname
+     {
+	     color:red;
+		 text-align:center;
+	     position:relative;
+	     animation-name:example;
+	     animation-duration:4s;
+     }
+	
+	@keyframes example
+		 {
+		     0% {color:red ;left:0px ; top:0px;}
+			 50% {color:blue ;left:0px ; top:400px;}
+			 100% {color:yellow ;left:0px ; top:0px;}
+		 }
+}
